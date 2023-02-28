@@ -62,3 +62,6 @@ wpm upload [构建结果目录, 例如 dist]
 ## .wpmrc
 
 Wpm 配置文件
+
+- source: 默认的模块源，可以指定为私有的或者其他公有的静态托管服务 default: surge.sh
+- target: 指定上传的目标目录 default: null
