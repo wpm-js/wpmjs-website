@@ -1,6 +1,6 @@
 # Wpmjs 
 
-链接 web 世界里的每一段代码 [To Englinsh Vesion](./README.en.md)
+链接 web 世界里的每一段代码 [Englinsh vesion](./README.en.md)
 
 # Why
 
