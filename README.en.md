@@ -7,14 +7,15 @@ Link every piece of code in the web world. [中文版](./README.en.md)
 
 Wpm, whose full name is "Web Program Module", is a web based module read and write format. Different from NPM, Wpm module is completely loaded and used at runtime. Wpm uses a specific api to read and write modules, so it doesn't rely on any build tools. Any code you build from webpack, vite, or rollup can be easily converted into Wpm modules. Distribute to anyone through a CDN.
 
-# 快速开始
+# Quick start
 
-## 安装
+## Installation
 ```
 npm i wpmjs-cli wpmjs-core
 ```
 
-## 编写一个 wpm 模块
+## Writing a wpm module
+
 ```js
 import wpm from 'wpmjs-core'
 
@@ -41,7 +42,7 @@ wpm.create({
 ```
 
 
-## 引用别人编写好的 wpm 模块
+## Using a wpm module written by others
 ```js
 import wpm from 'wpmjs-core'
 
@@ -54,17 +55,21 @@ const default = await OtherModule.defualt
 
 OtherModule.getName() // called
 ```
-## 上传模块
+## Uploading modules
+
 
 ```bash
 wpm upload [构建结果目录, 例如 dist]
 ```
 
-> 默认通过 surge.sh 上传，surge.sh 是一个免费的 cdn 静态资源托管服务
+> By default, it is uploaded through surge.sh, which is a free CDN static resource hosting service.
+
+
 
 ## .wpmrc
 
-Wpm 配置文件
+Wpm configuration file
 
-- source: 默认的模块源，可以指定为私有的或者其他公有的静态托管服务 default: surge.sh
-- target: 指定上传的目标目录 default: null
+source: Default module source, can be specified as private or other public static hosting services default: surge.sh
+target: Specifies the target directory for uploading default: null
+
