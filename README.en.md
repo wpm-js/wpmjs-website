@@ -1,7 +1,7 @@
 
 # Wpmjs 
 
-Link every piece of code in the web world. [中文版](./README.en.md)
+Link every piece of code in the web world. [中文版](./README.md)
 
 # Why
 
