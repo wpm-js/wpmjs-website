@@ -59,7 +59,7 @@ OtherModule.getName() // called
 
 
 ```bash
-wpm upload [构建结果目录, 例如 dist]
+wpm upload [build result directory, such as dist]
 ```
 
 > By default, it is uploaded through surge.sh, which is a free CDN static resource hosting service.
