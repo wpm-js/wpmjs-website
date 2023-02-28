@@ -50,7 +50,7 @@ const OtherModule = wpm.require('@OtherScope/OtherModule')
 // or
 const OtherHttpModule = wpm.require('https://mycdn....')
 
-//需要开启 Top async/await 语法解析
+// Top async/await syntax parsing needs to be enabled
 const default = await OtherModule.defualt
 
 OtherModule.getName() // called
