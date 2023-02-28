@@ -4,7 +4,7 @@
 
 # Why
 
-Wpm 全程 “Web Program Module” 是一种基于 web 的模块读写格式，和 NPM 不同 Wpm 模块完全在运行时加载和使用，不需要在本地安装因此也没有臃肿的 node_modules, Wpm 使用特定的 api 来读写模块，因此也不依赖任何构建工具，无论你是 webpack 还是 vite 又或者是 rollup 构建的代码都可以很简单的转换成 Wpm 模块，通过 CDN 分发给任何一个人。
+Wpm 全称 “Web Program Module” 是一种基于 web 的模块读写格式，和 NPM 不同 Wpm 模块完全在运行时加载和使用，不需要在本地安装因此也没有臃肿的 node_modules, Wpm 使用特定的 api 来读写模块，因此也不依赖任何构建工具，无论你是 webpack 还是 vite 又或者是 rollup 构建的代码都可以很简单的转换成 Wpm 模块，通过 CDN 分发给任何一个人。
 
 # 快速开始
 
