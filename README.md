@@ -59,6 +59,6 @@ wpm upload [构建结果目录, 例如 dist]
 
 > 默认通过 surge.sh 上传，surge.sh 是一个免费的 cdn 静态资源托管服务
 
-## wpmrc
+## .wpmrc
 
 Wpm 配置文件
