@@ -1,4 +1,4 @@
-# Wpmjs [Englinsh](./README.en.md)
+# Wpmjs [To Englinsh](./README.en.md)
 
 链接 web 世界里的每一段代码
 
