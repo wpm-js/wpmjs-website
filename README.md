@@ -45,6 +45,8 @@ wpm.create({
 import wpm from 'wpmjs-core'
 
 const OtherModule = wpm.require('@OtherScope/OtherModule')
+// or
+const OtherHttpModule = wpm.require('https://mycdn....')
 
 //需要开启 Top async/await 语法解析
 const default = await OtherModule.defualt
