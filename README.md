@@ -40,11 +40,11 @@ wpm.create({
 ```
 
 
-## 引用别人编写好的 wpm 模块
+## 让他人使用你编写好的 wpm 模块
 ```js
 import wpm from 'wpmjs-core'
 
-const OtherModule = wpm.require('@OtherScope/OtherModule')
+const OtherModule = wpm.require('@MyScope/MyModule')
 // or
 const OtherHttpModule = wpm.require('https://mycdn....')
 
